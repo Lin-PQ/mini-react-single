@@ -16,6 +16,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: "babel-loader",
         options: {
+          // 实际是调用注入的React.createElement方法
           presets: ["@babel/preset-react"],
         },
       },
